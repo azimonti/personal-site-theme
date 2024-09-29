@@ -1,12 +1,6 @@
-// 
+//
 // Global theme styling
-// 
-
-// Increase base font styling in the body only
-
-body {
-    font-size: $font-size-lg;
-}
+//
 
 // Set horizontal rule color to border color
 
@@ -18,14 +12,55 @@ hr {
 // Set defaults for the paragraph element
 
 p {
-    margin: 2rem 0;
-
-    a {
-        text-decoration: underline;
+    margin: 0.5rem 0;
+    line-height: 1.61em;
+    font-weight: 300;
+    font-size: 1.2em;
+    a{
+      text-decoration: underline;
+      color: $primary;
+      &:hover,
+      &:focus{
+        color: $primary;
+    }
     }
 }
 
 blockquote {
     font-style: italic;
     color: $gray-600;
+}
+
+strong{
+    font-weight: 400;
+}
+
+/* Global h1 Styling */
+h1 {
+  font-size: 2em;
+  font-weight:700;
+  line-height: 1.2em;
+  min-height: 2.4em;
+  text-align: center;
+  margin: 0.5em 0;
+  text-transform: uppercase;
+}
+
+body{
+    font-weight: 300;
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: $font-family-base;
+}
+
+h4{
+    font-weight: 400;
+}
+
+h5{
+    font-weight: 400;
+}
+
+h5{
+    font-weight: 400;
 }
