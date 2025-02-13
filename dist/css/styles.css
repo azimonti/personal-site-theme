@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Clean Blog v6.0.9 (https://startbootstrap.com/theme/clean-blog)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE)
 */
 /*!
@@ -10575,10 +10575,8 @@ h1, .h1 {
   font-size: 2em;
   font-weight: 700;
   line-height: 1.2em;
-  min-height: 2.4em;
   text-align: center;
   margin: 0.5em 0;
-  text-transform: uppercase;
 }
 
 body {
@@ -10702,8 +10700,9 @@ footer {
 header.masthead {
   position: relative;
   margin-bottom: 3rem;
-  padding-top: calc(8rem + 57px);
-  padding-bottom: 8rem;
+  padding-top: 13.4rem;
+  padding-bottom: 14.4rem;
+  height: 27.8rem;
   background: no-repeat center center;
   background-color: #6c757d;
   background-size: cover;
@@ -10718,6 +10717,13 @@ header.masthead:before {
   bottom: 0;
   background-color: #212529;
   opacity: 0.5;
+}
+header.masthead .container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
 }
 header.masthead .page-heading,
 header.masthead .post-heading,
@@ -10767,8 +10773,8 @@ header.masthead .post-heading .meta a {
 }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
+    padding-top: 18.9rem;
+    padding-bottom: 18.8rem;
   }
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,

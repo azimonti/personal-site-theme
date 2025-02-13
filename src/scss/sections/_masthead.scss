@@ -5,8 +5,10 @@
 header.masthead {
     position: relative;
     margin-bottom: 3rem;
-    padding-top: calc(8rem + 57px);
-    padding-bottom: 8rem;
+    padding-top: 13.4rem;
+    padding-bottom: 14.4rem;
+    // height = padding-top + padding-bottom
+    height: 27.8rem;
 
     // TIP: Background images are set within the HTML using inline CSS!
     background: no-repeat center center;
@@ -27,6 +29,14 @@ header.masthead {
         opacity: $overlay-opacity;
     }
 
+    // Position the site-heading within the grid
+    .container {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+    }
     // Set color for all headings
 
     .page-heading,
@@ -90,8 +100,8 @@ header.masthead {
     // Desktop styling for headings
 
     @include media-breakpoint-up(lg) {
-        padding-top: 12.5rem;
-        padding-bottom: 12.5rem;
+        padding-top: 18.9rem;
+        padding-bottom: 18.8rem;
 
         .page-heading,
         .site-heading {
